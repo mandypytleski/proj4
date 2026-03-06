@@ -98,6 +98,16 @@ void addToHistory(string line){
     close(orgOut);
 }
 
+void printHistory(){
+	string fileName = "history.txt";
+	ifstream inFile(fileName);
+	string line;
+	while (getline(inFile, line)) {
+		cout << line << endl;
+	}
+	inFile.close();
+}
+
 int main(){
 //creating two pipes
 	int fdparent2child[2], fdchild2parent[2];
@@ -122,6 +132,11 @@ int main(){
 
 		//print to history
 		addToHistory(input);
+
+		if(input == "history"){
+			printHistory();
+			continue;
+		}
 		
 		//splits into array of words
 		words = splitString(input);
