@@ -89,11 +89,13 @@ void createArray(const vector<string>& words, char* command[]) {
 
 void addToHistory(string line){
 	string fileName = "history.txt";
-	int outFd = open(fileName.c_str(), O_WRONLY | O_CREAT, 0666);
+	int outFd = open(fileName.c_str(), O_WRONLY | O_CREAT | O_APPEND, 0666);
 	int orgOut = dup(1);
 	dup2(outFd, 1);
 	cout<<line<<endl;
 	dup2(orgOut, 1);
+	close(outFd);
+    close(orgOut);
 }
 
 int main(){
