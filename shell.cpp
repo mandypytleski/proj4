@@ -220,25 +220,24 @@ int main(){
 		char* command[n+1]; 
 		createArray(words, command);
 
-		for (int i = 0; i < words.size(); i++)
-            {
-				if(words[i] == "|"){
-					int pid = fork();
+		for (int i = 0; i < words.size(); i++){
+			if(words[i] == "|"){
+				int pid = fork();
 
-					if(pid == 0){
-						pipeRecursive(words);
-					}
-
-					wait(NULL);
-					
+				if(pid == 0){
+					pipeRecursive(words);
 				}
-                if(words[i] == ">"){
-                    changeOutPut(words[i+1]);
-                }
-                if(words[i] == "<"){
-                    changeInput(words[i+1]);
-                }
+
+				wait(NULL);
+					
+			}
+            if(words[i] == ">"){
+                changeOutPut(words[i+1]);
             }
+            if(words[i] == "<"){
+                changeInput(words[i+1]);
+            }
+        }
 
 		originalStdIn(orgIn);
 		originalStdOut(orgOut);
