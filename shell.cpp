@@ -108,37 +108,67 @@ void printHistory(){
 	inFile.close();
 }
 
-void createPipes(vector<string> words, char* command[]){
-	int fdparent2child[2], fdchild2parent[2];
+//did research beforehand
+void pipeRecursive(vector<string> words){
+	int pipeIndex = -1;
+	//used to find where the pipe is
+	for(int i = 0; i < words.size(); i++){
+        if(words[i] == "|"){
+            pipeIndex = i;
+            break;
+        }
+    }
 
-	if (pipe(fdparent2child) < 0)
-	{
-		cout << "Cannot create the pipe\n";
-		exit(1);
-	}
-	if (pipe(fdchild2parent) < 0)
-	{
-		cout << "Cannot create the pipe\n";
-		exit(2);
+	//base case where it's the last one
+	if(pipeIndex == -1) {
+		char* cmd[words.size()+1];
+        createArray(words, cmd);
+
+        execvp(cmd[0], cmd);
+        perror("execvp failed");
+        exit(1);
 	}
 
+	// Split before and after the pipe
+    vector<string> before(words.begin(), words.begin()+pipeIndex);
+    vector<string> after(words.begin()+pipeIndex+1, words.end());
+
+    int fd[2];
+    pipe(fd);
+
+	//creating child
 	int pid = fork();
-	if (pid < 0) {
-		cout << "Cannot create the child process\n";
-		exit(3);
-	}
-	else if (pid > 0) //parent
-	{
-		
-	}
-	else //child
-	{
-		
-	}
+	if(pid == 0){ // CHILD
+
+		//output to pipe
+        dup2(fd[1], 1); 
+        close(fd[0]);
+        close(fd[1]);
+
+        char* cmd[before.size()+1];
+        createArray(before, cmd);
+
+        execvp(cmd[0], cmd);
+        perror("execvp failed");
+        exit(1);
+    }
+
+	else{ // PARENT
+
+		//input from pipe
+        dup2(fd[0], 0); 
+        close(fd[1]);
+        close(fd[0]);
+
+		// recursive call to do the rest of the pipes
+        pipeRecursive(after); 
+    }
+
 }
 
+
 void changeOutPut(string fileName){
-	int outFd = open(fileName.c_str(), O_WRONLY | O_CREAT, 0666);
+	int outFd = open(fileName.c_str(), O_WRONLY | O_CREAT | O_TRUNC, 0666);
 	int orgOut = dup(1);
 	dup2(outFd, 1);
 	close(outFd);
@@ -156,11 +186,11 @@ void originalStdOut(int orgOut){
 	dup2(orgOut, 1);
 	close(orgOut);
 }
-
 void originalStdIn(int orgIn){
 	dup2(orgIn, 0);
 	close(orgIn);
 }
+
 
 int main(){
 
@@ -193,7 +223,14 @@ int main(){
 		for (int i = 0; i < words.size(); i++)
             {
 				if(words[i] == "|"){
-					createPipes(words, command);
+					int pid = fork();
+
+					if(pid == 0){
+						pipeRecursive(words);
+					}
+
+					wait(NULL);
+					
 				}
                 if(words[i] == ">"){
                     changeOutPut(words[i+1]);
