@@ -241,6 +241,16 @@ int main(){
 
 		originalStdIn(orgIn);
 		originalStdOut(orgOut);
+
+		pid_t pid = fork();
+
+		if (pid == 0) {
+    		execvp(command[0], command);
+   			perror("exec failed");
+    		exit(1);
+		} else {
+    		wait(NULL);
+		}
 	}
 
     

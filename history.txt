@@ -14,3 +14,6 @@ so niiiiice
 hitory
 history
 exit
+ls
+ls-l
+ls -l
