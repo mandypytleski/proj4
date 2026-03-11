@@ -126,7 +126,7 @@ void pipeRecursive(vector<string> words){
 
         execvp(cmd[0], cmd);
         perror("execvp failed");
-        exit(1);
+        exit(0);
 	}
 
 	// Split before and after the pipe
@@ -159,6 +159,8 @@ void pipeRecursive(vector<string> words){
         dup2(fd[0], 0); 
         close(fd[1]);
         close(fd[0]);
+
+		wait(0);
 
 		// recursive call to do the rest of the pipes
         pipeRecursive(after); 
@@ -229,7 +231,7 @@ int main(){
 				}
 
 				wait(NULL);
-					
+				break;
 			}
             if(words[i] == ">"){
                 changeOutPut(words[i+1]);

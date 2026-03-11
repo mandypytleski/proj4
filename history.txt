@@ -14,6 +14,22 @@ so niiiiice
 hitory
 history
 exit
+./test1 | ./test2 | ./test3
+./test1 | ./test2 | ./test3
+./test1 | ./test2 | ./test3
+./test1 | ./test2 | ./test3
+exit
+./test1 | ./test2 | ./test3     
+apple bana apple
+./test1 | ./test2 | ./test3     
+./test1 | ./test2 | ./test3     
+good?
 ls
-ls-l
-ls -l
+exit
+jkf;ajeklfhepioa
+fjiaodpfjetiora
+exit
+jkl;faejwkl
+ls
+exit
+history
