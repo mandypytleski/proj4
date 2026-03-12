@@ -1,0 +1,672 @@
+Script started on 2026-03-11 21:04:11-05:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="122" LINES="9"]
+[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ pwd
+[?2004l/home/mandypytleski/cs442/cppstuff/proj4
+[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ ls -l
+[?2004ltotal 156
+-rw-r--r-- 1 mandypytleski mandypytleski   661 Mar 11 21:04 history.txt
+-rw-r--r-- 1 mandypytleski mandypytleski    28 Mar 11 20:59 input.txt
+-rw-r--r-- 1 mandypytleski mandypytleski    29 Mar 11 20:59 output.txt
+-rwxr-xr-x 1 mandypytleski mandypytleski 62784 Mar 11 20:58 [0m[01;32mshell[0m
+-rw-r--r-- 1 mandypytleski mandypytleski  6699 Mar 11 20:58 shell.cpp
+-rwxr-xr-x 1 mandypytleski mandypytleski 17224 Mar 10 11:02 [01;32mtest1[0m
+-rw-r--r-- 1 mandypytleski mandypytleski   240 Mar 10 11:01 test1.cpp
+-rwxr-xr-x 1 mandypytleski mandypytleski 18056 Mar 10 10:41 [01;32mtest2[0m
+-rw-r--r-- 1 mandypytleski mandypytleski   206 Mar 10 10:41 test2.cpp
+-rwxr-xr-x 1 mandypytleski mandypytleski 17304 Mar 10 10:41 [01;32mtest3[0m
+-rw-r--r-- 1 mandypytleski mandypytleski   257 Mar 10 10:40 test3.cpp
+-rw-r--r-- 1 mandypytleski mandypytleski     0 Mar 11 21:04 typescript
+[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ ./test1 | ./test2 | ./test3
+[?2004lapple orange apple
+Total lines: 2
+[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ ./test1 < input.ts[Kxt > output.z[Ktxt
+[?2004l[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ cat output.txt
+[?2004lapple
+banana
+jdlksafjeapjiwe
+[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ history
+[?2004l    1  sudo apt install g++
+    2  sudo apt-get update
+    3  sudo apt-get upgrade
+    4  sudo apt install g++
+    5  sudo apt install default-jdk
+    6  ls
+    7  suda apt-get update
+    8  sudo apt-get update
+    9  sudo apt-get upgrade
+   10  ls
+   11  ls -l
+   12  ls
+   13  clear
+   14  ls
+   15  clear
+   16  ls -aux
+   17  clear
+   18  man ls
+   19  mkdir cs442
+   20  cd cs442
+   21  pwd
+   22  nano printMe.cpp
+   23  ls
+   24  cd printme.cpp
+   25  clear
+   26  ls
+   27  concat printme.cpp
+   28  cat printme.cpp
+   29  nano printme.cpp
+   30  clear
+   31  cd cs442
+   32  ls
+   33  rm *.cpp
+   34  ls
+   35  mkdir cppstuff
+   36  ls
+   37  mkdir javastuff
+   38  ls
+   39  clear
+   40  cd cppstuff/
+   41  mkdir pro0
+   42  cd pro0/
+   43  history
+   44  history | grep "cpp"
+   45  history | grep "cpp" | wc
+   46  nano printaverage.cpp
+   47  g++ printave.cpp -o printave
+   48  g++ printave.cpp -o printave.cpp
+   49  ./printave
+   50  ls
+   51  g++ printaverage.cpp -o printaverage
+   52  ls
+   53  printaverage
+   54  ./printaverage
+   55  cd ..
+   56  cd javastuff/
+   57  clear
+   58  mkdir pro0
+   59  cd pro0
+   60  nano Ave.java
+   61  touch App.java
+   62  nano App.java
+   63  javac *.java
+   64  nano Ave.java
+   65  javac *.java
+   66  nano App.java
+   67  javac *.java
+   68  nano App.java
+   69  nano Ave.java
+   70  javac *.java
+   71  nano Ave.java
+   72  nano App.java
+   73  ls
+   74  cd cs442
+   75  ls
+   76  cd cppstuff
+   77  ls
+   78  ctdic
+   79  mkdir proj1
+   80  ls
+   81  cd proj1
+   82  nano sorting.cpp
+   83  g++ sorting.cpp -o countsort
+   84  ls
+   85  countsort
+   86  history
+   87  clear
+   88  ./countsort
+   89  cd cs442
+   90  ls
+   91  cd cppstuff
+   92  ls
+   93  cd proj1
+   94  ls
+   95  ./countsort
+   96  cd cs442
+   97  cd cppstuff
+   98  cd proj1
+   99  nano sorting.cpp
+  100  countsort
+  101  ./countsort
+  102  cd cs244
+  103  cd cs 442
+  104  cd cs442
+  105  cd cppstuff
+  106  cd proj1
+  107  nano sorting.cpp
+  108  countingsort
+  109  ls
+  110  countsort
+  111  ./countsort
+  112  cd cs442
+  113  cd cppstuff
+  114  cd proj1
+  115  nano sorting.cpp
+  116  ./countsort
+  117  cd cs442
+  118  cd cppstuff
+  119  cd proj1
+  120  nano sorting.cpp
+  121  g++ sorting.cpp -o sorting
+  122  ls
+  123  ./sorting
+  124  cd cs442
+  125  cd cppstuff
+  126  cd proj1
+  127  ls
+  128  ./sorting
+  129  nano sorting.cpp
+  130  g++ sorting.cpp -o sorting
+  131  ls
+  132  ./sorting
+  133  ls
+  134  ps -aux
+  135  clear
+  136  exit
+  137  cat printaverage.cpp
+  138  g++ printaverage.cpp
+  139  ./a.out
+  140  exit
+  141  cd cs442
+  142  cd cppstuff
+  143  cd proj1
+  144  nano sorting.cpp
+  145  g++ sorting.cpp -o sorting
+  146  ./sorting
+  147  nano sorting.cpp
+  148  g++ sorting.cpp -o sorting50
+  149  ./sorting50
+  150  nano sorting.cpp
+  151  nano newsorting.cpp
+  152  g++ newsorting.cpp -o newsorting
+  153  ./newsorting
+  154  nano newsorting.cpp
+  155  g++ newsorting.cpp -o newsorting
+  156  ./newsorting
+  157  nano newsorting.cpp
+  158  g++ newsorting.cpp -o newsorting
+  159  ./newsorting
+  160  nano newsorting.cpp
+  161  g++ newsorting.cpp -o newsorting
+  162  ./newsorting
+  163  nano newsorting.cpp
+  164  g++ newsorting.cpp -o newsorting
+  165  ./newsorting
+  166  clear
+  167  ./newsorting
+  168  cd ..
+  169  cd javastuff
+  170  mkdir proj1
+  171  cd proj1
+  172  nano sorting.java
+  173  ls
+  174  cd ..
+  175  ps
+  176  ps -aux
+  177  pwd
+  178  cd cs442
+  179  ls
+  180  history
+  181  history > output.txt
+  182  ls
+  183  cat output.txt
+  184  rm output.txt
+  185  ls
+  186  cd cppstuff
+  187  cd pro0
+  188  ls
+  189  touch printaverage.cpp
+  190  nano printaverage.cpp
+  191  g++ printaverage.cpp
+  192  nano printaverage.cpp
+  193  g++ printaverage.cpp
+  194  nano printaverage.cpp
+  195  g++ printaverage.cpp
+  196  nano printaverage.cpp
+  197  g++ printaverage.cpp
+  198  ls
+  199  ./a.out
+  200  nano printaverage.cpp
+  201  g++ printaverage.cpp
+  202  nano printaverage.cpp
+  203  g++ printaverage.cpp
+  204  ./a.out
+  205  nano input.txt
+  206  cat input.txt
+  207  ./a.out < input.txt
+  208  clear
+  209  ./a.out < input.txt > output.txt
+  210  ls
+  211  cat output.txt
+  212  clear
+  213  script
+  214  cat typescript
+  215  clear
+  216  script
+  217  cat typescript
+  218  clear
+  219  cd ..
+  220  cd javastuff
+  221  cd proj1
+  222  ls
+  223  nano sorting.java
+  224  javac *.java
+  225  rm sorting.java
+  226  ls
+  227  nano Sorting.java
+  228  javac *.java
+  229  java
+  230  java Sorting
+  231  nano Sorting.java
+  232  javac *.java
+  233  java Sorting
+  234  cd ..
+  235  cd cppstuff
+  236  cd proj1
+  237  cd sorting.cpp
+  238  nano sorting.cpp
+  239  nano contained.cpp
+  240  g++ contained.cpp -o contained
+  241  ./contained
+  242  cd ..
+  243  mkdir cstuff
+  244  cd cstuff
+  245  mkdir proj1
+  246  cd proj1
+  247  nano contained.c
+  248  g++ contained.c -o contained
+  249  ./contained
+  250  nano contained.c
+  251  g++ contained.c -o contained
+  252  ./contained
+  253  cd ..
+  254  cd cppstuff
+  255  cd proj1
+  256  nano splits.cpp
+  257  g++ splits.cpp -o splits
+  258  ./splits
+  259  nano splits.cpp
+  260  g++ splits.cpp -o splits
+  261  ./splits
+  262  suda apt-getupdate
+  263  sudo apt-get update
+  264  cat sorting.cpp
+  265  ./sorting
+  266  cd ..
+  267  cd javastuff
+  268  cd proj1
+  269  ls
+  270  java Sorting
+  271  cat Sorting.java
+  272  end
+  273  exit
+  274  cat contained.cpp
+  275  ./contained
+  276  cd ..
+  277  ls
+  278  cd cstuff
+  279  cd proj1
+  280  ls
+  281  ./contained
+  282  cat contained.c
+  283  exit
+  284  cat splits.cpp
+  285  ./splits
+  286  exit
+  287  history
+  288  ls
+  289  cd cs442
+  290  ls
+  291  cd javastuff
+  292  ls
+  293  cd proj1
+  294  ls
+  295  cd cs442
+  296  cd javastuff
+  297  cd proj1
+  298  ls
+  299  java Sorting
+  300  cd cs442
+  301  cd cppstuff
+  302  ls
+  303  cd proj1
+  304  ls
+  305  cat contained.cpp
+  306  cat splits.cpp
+  307  ./splits
+  308  ls
+  309  cd Pisense_Backend
+  310  cd PiSense_Backend
+  311  ls
+  312  git pull
+  313  cat commands
+  314  cat commands.txt
+  315  cat parsingresults.txt
+  316  exit
+  317  ls
+  318  cat commands.txt 
+  319  cat readandstore.cpp
+  320  ./readandstore
+  321  ls
+  322  cat parsingresults.txt
+  323  exit
+  324  cd cppstuff
+  325  cd proj2
+  326  ls
+  327  g++ readandstore.cpp -o readandstore
+  328  ./readandstore
+  329  cat parsingresults.txt
+  330  g++ readandstore.cpp -o readandstore
+  331  ./readandstore
+  332  cat parsingresults.txt
+  333  g++ readandstore.cpp -o readandstore
+  334  ./readandstore
+  335  cat parsingresults.txt
+  336  g++ readandstore.cpp -o readandstore
+  337  ./readandstore
+  338  g++ readandstore.cpp -o readandstore
+  339  ./readandstore
+  340  g++ readandstore.cpp -o readandstore
+  341  ./readandstore
+  342  cd cs442
+  343  cd cppstuff
+  344  cd proj2
+  345  ls
+  346  script proj2.txt
+  347  ls
+  348  rm proj2.txt 
+  349  ls
+  350  rm parsingresults.txt 
+  351  g++ readandstore.cpp -o readandstore
+  352  ls
+  353  clear
+  354  script
+  355  uv add mariadb
+  356  $ curl -LsSf https://astral.sh/uv/install.sh | sh
+  357  uv
+  358  exit
+  359  passwd
+  360  uv
+  361  uv add mariadb
+  362  sudo apt install libmariadb3 libmariadb-dev
+  363  uv add mariadb
+  364  exit
+  365  uv add mariadb
+  366  python
+  367  sudo apt update
+  368  sudo apt install python3
+  369  uv add mariadb
+  370  python
+  371  python3
+  372  uv sync
+  373  source .venv/bin/activate
+  374  uv add mariadb
+  375  sudo apt install build-essential python3-dev
+  376  uv add mariadb
+  377  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  378  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  379  clear
+  380  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  381  git rebase
+  382  git rebase --continue
+  383  git commit -a
+  384  git push
+  385  git rebase --continue
+  386  git config --global user.email "pytleskia5362@my.uwstout.edu"
+  387  git config --global user.name "Mandy Pytleski"
+  388  pip install flask
+  389  pip3 install flask
+  390  python3 --version
+  391  sudo apt install python3 python3-pip -y
+  392  pip3 install flask
+  393  g++ fork.cpp -o fork
+  394  ls
+  395  ./fork
+  396  clear
+  397  ./fork
+  398  clear
+  399  g++ fork.cpp -o fork
+  400  ./fork
+  401  clear
+  402  g++ execvp.cpp -o execvp
+  403  ./execvp
+  404  cd cs442
+  405  ls
+  406  cd systemcalls
+  407  ls
+  408  cat fork.cpp
+  409  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  410  clear
+  411  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  412  git pull
+  413  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  414  cd /home
+  415  cd mandypytleski
+  416  ls
+  417  cd PiSense_Backend
+  418  ls
+  419  ls pisense
+  420  docker logs mariadb
+  421  sudo docker logs mariadb
+  422  docker
+  423  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  424  /home/mandypytleski/PiSense_Backend/.venv/bin/python
+  425  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  426  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  427  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  428  git pull
+  429  git push
+  430  git pull
+  431  git push
+  432  uv run nox
+  433  uv sync
+  434  uv run nox
+  435  clear
+  436  uv run nox
+  437  clear
+  438  uv run nox
+  439  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  440  /home/mandypytleski/PiSense_Backend/.venv/bin/python
+  441  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  442  uv run nox
+  443  git pull
+  444  git rebase
+  445  git commit -a
+  446  git push
+  447  git rebase --continue
+  448  git push
+  449  ls
+  450  ./execvp
+  451  g++ execvp.cpp -o execvp
+  452  ./execvp
+  453  g++ execvp.cpp -o execvp
+  454  ./execvp
+  455  git pull
+  456  cd cppstuff
+  457  cd proj3
+  458  ls
+  459  g++ part1.cpp -o part1
+  460  ./part1
+  461  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  462  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  463  history
+  464  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  465  clear
+  466  git pull
+  467  uv run nox
+  468  kill
+  469  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  470  uv run nox
+  471  git pull
+  472  git rebase
+  473  git pull
+  474  git rebase
+  475  git rebase --continue
+  476  git --continue
+  477  git pull
+  478  git merge
+  479  git rebase --continue
+  480  git add
+  481  git rebase --continue
+  482  git committ
+  483  git commit
+  484  git commit -a
+  485  git rebase
+  486  git rebase --continue
+  487  git pull
+  488  history
+  489  cat part1.cpp
+  490  cat passkeys.txt
+  491  ./part1
+  492  exit
+  493  cat part2.cpp
+  494  ./part2
+  495  exit
+  496  cat cart1.cpp
+  497  cat part1.cpp
+  498  cat passkeys.txt
+  499  ./part1
+  500  exit
+  501  cat part2.cpp
+  502  cat output.txt
+  503  ./part2
+  504  cat output.txt
+  505  exit
+  506  cd cppstuff
+  507  cd proj3
+  508  ls
+  509  ./part1
+  510  g++ part1.cpp -o part1
+  511  ./part1
+  512  g++ part1.cpp -o part1
+  513  ./part1
+  514  g++ part1.cpp -o part1
+  515  ./part1
+  516  g++ part1.cpp -o part1
+  517  ./part1
+  518  g++ part1.cpp -o part1
+  519  ./part1
+  520  g++ part1.cpp -o part1
+  521  ./part1
+  522  script
+  523  g++ part2.cpp -o part2
+  524  ./part2
+  525  g++ part2.cpp -o part2
+  526  ./part2
+  527  g++ part2.cpp -o part2
+  528  ./part2
+  529  clear
+  530  script part2.txt
+  531  clear
+  532  g++ part2.cpp -o part2
+  533  script
+  534  script part1.txt
+  535  script part2.txt
+  536  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  537  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  538  g++ shell.cpp -o shell
+  539  ./shell
+  540  g++ shell.cpp -o shell
+  541  ./shell
+  542  g++ shell.cpp -o shell
+  543  ./shell
+  544  g++ shell.cpp -o shell
+  545  ./shell
+  546  g++ shell.cpp -o shell
+  547  cd cppstuff
+  548  cd proj4
+  549  g++ shell.cpp -o shell
+  550  ./shell
+  551  g++ shell.cpp -o shell
+  552  ./shell
+  553  g++ shell.cpp -o shell
+  554  ./shell
+  555  g++ shell.cpp -o shell
+  556  ./shell
+  557  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  558  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  559  cd cppstuff
+  560  cd proj4
+  561  g++ shell.cpp -o shell
+  562  ./shell
+  563  g++ shell.cpp -o shell
+  564  ./shell
+  565  g++ shell.cpp -o shell
+  566  ./shell
+  567  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  568  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  569  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/backend/classes.py
+  570  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  571  clear
+  572  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  573  clear
+  574  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  575  python -m pisense.database.test
+  576  cd cppstuff
+  577  cd proj4
+  578  ls
+  579  g++ test1.cpp -o test1
+  580  g++ test2.cpp -o test2
+  581  g++ test3.cpp -o test3
+  582  ./test1 | ./test2 | ./test3
+  583  still going?
+  584  ls
+  585  exit
+  586  cd cppstuff
+  587  cd proj4
+  588  g++ test1.cpp -o test1
+  589  g++ shell.cpp -o shell
+  590  ./shell
+  591  cd cppstuff
+  592  cd proj4
+  593  g++ shell.cpp -o shell
+  594  ./shell
+  595  cd cppstuff
+  596  cd proj4
+  597  g++ shell.cpp -o shell
+  598  ./shell
+  599  g++ shell.cpp -o shell
+  600  ./shell
+  601  cd cppstuff
+  602  cd proj4
+  603  g++ shell.cpp -o shell
+  604  ./shell
+  605  jkjkfl;ajwe
+  606  ./shell
+  607  git pull
+  608  g++ shell.cpp -o shell
+  609  ./shell
+  610  source /home/mandypytleski/PiSense_Backend/.venv/bin/activate
+  611  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/database/test.py
+  612  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/test.py
+  613  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/backend/classes.py
+  614  git pull
+  615  git merge main
+  616  git rebase main
+  617  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/test.py
+  618  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/pisense/backend/classes.py
+  619  /home/mandypytleski/PiSense_Backend/.venv/bin/python /home/mandypytleski/PiSense_Backend/test.py
+  620  uv run nox
+  621  clear
+  622  uv run nox
+  623  uv lock
+  624  uv run nox
+  625  sudo apt install pkg-config
+  626  uv run nox
+  627  clear
+  628  git rm --cached test.py
+  629  git merge ndobo-db-connection
+  630  git pull
+  631  git rm --cached test.py
+  632  cd cppstuff
+  633  cd proj4
+  634  ls
+  635  ./shell
+  636  git pull
+  637  pwd
+  638  ls -l
+  639  ./test1 | ./test2 | ./test3
+  640  ./test1 < input.txt > output.txt
+  641  cat output.txt
+  642  history
+[?2004h]0;mandypytleski@MandyStoutLaptop: ~/cs442/cppstuff/proj4[01;32mmandypytleski@MandyStoutLaptop[00m:[01;34m~/cs442/cppstuff/proj4[00m$ exit
+[?2004lexit
+
+Script done on 2026-03-11 21:06:29-05:00 [COMMAND_EXIT_CODE="0"]

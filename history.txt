@@ -33,3 +33,17 @@ jkl;faejwkl
 ls
 exit
 history
+pwd
+ls
+ls -l
+man
+history
+
+ls
+./test1 < input.txt
+exit
+./test1 < input.txt
+./test1 < input.txt > output.txt
+ls -l
+history
+exit
